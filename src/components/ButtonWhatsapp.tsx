@@ -1,4 +1,5 @@
 import iconWhatsapp from "../img/whatsapp.png"
+import '../styles/buttonwhatsapp.scss'
 
 export function ButtonWhatsapp(){
     return(

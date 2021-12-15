@@ -1,4 +1,4 @@
-import '../styles/home.scss'
+import '../styles/header.scss'
 import '../scripts/header.js'
 import logoEngenharia from "../img/logoEngenharia.svg"
 
@@ -10,9 +10,9 @@ export function Header(){
                 <nav>
                     <ul>
                         <li><a href="#">Inicio</a> </li>
-                        <li><a>Sobre</a></li>
-                        <li><a>Empreendimentos</a></li>
-                        <li><a>Contato</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Empreendimentos</a></li>
+                        <li><a href="#">Contato</a></li>
                     </ul>
                 </nav>
             </header>

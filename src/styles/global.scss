@@ -1,3 +1,12 @@
+:root{
+    --size-height-100: 100%;
+    --size-width-100: 100%;
+    --size-height-29: 29rem;
+    --background-gradient-yellow: linear-gradient(0deg, rgba(233,157,20,1) 0%, rgba(160,98,5,1) 100%);
+    --border-radius-20: 20px;
+    --color-yellow: #E99D14;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,10 +15,32 @@
 
 body{
     background: #FFF;
-    color: #29292E;
+    
+    a{
+        color: #29292E;
+    }
 }
+
+body::-webkit-scrollbar {
+    width: 11px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--color-yellow) ;
+    border-radius: 6px;
+    border: 3px solid var(--color-yellow);
+  }
 
 body, button{
     font: 400 16px "Barlow"
 }
 
+main{
+    height:100vh;
+}

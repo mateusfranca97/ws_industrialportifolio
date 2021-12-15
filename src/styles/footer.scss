@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    height: 250px;
+    width: auto;
+    margin-top: 1rem;
+    
+        .logo-footer{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            height: 200px;
+            width: 340px;
+    
+            img{
+                margin-left: 5rem;
+                height: 80px;
+            }
+        }
+            
+        .info{
+            width: 340px;
+        }
+        
+        .rede-social{
+            width: 340px;
+        }
+        
+}

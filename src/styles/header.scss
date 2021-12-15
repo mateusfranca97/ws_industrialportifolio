@@ -1,0 +1,52 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+    width:100%;
+    z-index: 999;
+    position: fixed;
+    justify-content: space-between;
+    padding-top: .3rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(180deg, #C4C4C4 0%, rgba(196,196,196,0) 95%);
+
+    #logo{
+        height: 4rem;
+        padding-left: 2.5rem;
+    }
+
+    nav, ul{
+        display: flex;
+    }
+
+    ul{
+        padding-right: 3rem;
+    }
+
+    li{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        padding-right: 3rem;
+    }
+
+    a{
+        text-decoration: none;
+        
+    }
+}
+
+.main-scroll-down{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+    padding-top: .7rem;
+    color: #000;
+    background: #FFF;
+    transition: .5s;
+
+    img{
+        height: 50px;
+    }
+
+}

@@ -1,4 +1,5 @@
 import logoEngenharia from "../img/logoEngenharia.svg"
+import '../styles/footer.scss'
 
 export function Footer(){
     return(
